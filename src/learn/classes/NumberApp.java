@@ -25,5 +25,28 @@ public class NumberApp {
         Double doubleValue = longValue.doubleValue();
         Short shortValue = doubleValue.shortValue();
 
+        /**
+         * Konversi String ke Number
+         * - Long, Integer, Short, dan Byte memiliki method untuk melakukan konversi dari
+         *   String ke number
+         * - parseXxx(String), digunakan untuk mengkonversi dari string ke tipe data number
+         *   primitif
+         * - valueOf(string) digunakan untuk mengkonversi dari string ke tipe data number non
+         *   primitif
+         * - Method ini akan throw NumberFormatException jika ternyata gagal melakukan konversi
+         *   String ke number
+         */
+
+//        String contoh = "10000A"; // ERROR karena ada huruf sehingga tidak dimengerti oleh integer
+        String contoh = "10000";
+        String contoh1 = "100.00";
+
+        Integer contohInt = Integer.valueOf(contoh);
+        System.out.println(contohInt);
+
+        Double contohInt1 = Double.parseDouble(contoh1);
+        System.out.println(contohInt1);
+
+
     }
 }
