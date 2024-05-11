@@ -11,6 +11,13 @@ public class StringBuilderApp {
 //
 //        System.out.println(name);
 
+        /** Output diatas mencetak 3 memory
+             Output :
+                Adrian
+                Adrian Bimo
+                Adrian Bimo Hernawan Pratama
+         */
+
         /**
          * - String di java tidak bisa berubah
          * - Jika melakukan manipulasi string tidak direkomendasikan menggunakan string langsung

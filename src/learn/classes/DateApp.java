@@ -20,6 +20,13 @@ public class DateApp {
 
         System.out.println(tanggal);
 
+        /**
+         *  Hubungan Date dan Calendar
+         *  - Class Date adalah class representasi tanggal sampai presisi milisecond
+         *  - Namun di class Date sudah banyak method-method yang di deprecated, sehingga untuk memanipulasi date tanggal, kita sekarang harus melakukan kombinasi antara class Date dan Calendar
+         *  - Sederhananya Date untuk representasi tanggal, dan Calendar untuk memanipulasi tanggal
+         */
+
         // Menggunakan Calendar
         Calendar calendar = Calendar.getInstance();
         calendar.add(Calendar.YEAR, -10);

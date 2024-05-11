@@ -12,6 +12,14 @@ import java.util.Scanner;
  *   dan lain-lain
  * - Class Scanner ini cocok untuk dijadikan object untuk membaca input user saat kita belajar
  *   membuat program Java menggunakan console/terminal
+ *
+ * Method di Scanner Class
+ * Method                   Keterangan
+ * - nextLine()             - Membaca string
+ * - nextInt()              - Membaca int
+ * - nextLong()             - Membaca long
+ * - nextBoolean()          - Membaca boolean
+ * - ...dan masih banyak
  */
 public class ScannerApp {
     public static void main(String[] args) {
